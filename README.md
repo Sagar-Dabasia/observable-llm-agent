@@ -39,15 +39,22 @@ Each failure is stored directly in the run trace.
 ## Architecture overview
 
 User Input
-↓
-LLM Router (JSON tool selection)
-↓
-Tool Execution
-↓
-LLM Final Answer
-↓
-Structured Trace (JSON)
 
+↓
+
+LLM Router (JSON tool selection)
+
+↓
+
+Tool Execution
+
+↓
+
+LLM Final Answer
+
+↓
+
+Structured Trace (JSON)
 
 Every step is logged for replay and debugging.
 

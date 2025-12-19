@@ -40,19 +40,19 @@ Each failure is stored directly in the run trace.
 
 User Input
 
-↓
+    ↓
 
 LLM Router (JSON tool selection)
 
-↓
+    ↓
 
 Tool Execution
 
-↓
+    ↓
 
 LLM Final Answer
 
-↓
+    ↓
 
 Structured Trace (JSON)
 
